@@ -29,6 +29,7 @@ Symbolic and small icons take the theme's text color, so light themes stay reada
 ```bash
 ./icons/install.sh                    # default folder color
 ./icons/install.sh --variant Red      # see --list
+./icons/install.sh --system           # /usr/share/icons, all users + login screen (sudo)
 ```
 
 **By hand:** download a pack from [Releases](https://github.com/atraxsrc/cosmic-icon-themes/releases/latest), then:
