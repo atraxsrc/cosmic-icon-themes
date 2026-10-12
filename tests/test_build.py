@@ -75,6 +75,14 @@ class BuildPackTest(unittest.TestCase):
         printer = (dest / "devices/64/printer.svg").read_bytes()
         self.assertEqual(printer, TRASH)
 
+    def test_dark_variant_trash_lighter_on_top(self):
+        dest = self.build("DarkGold", "Dark")
+        trash = (dest / "places/64/user-trash.svg").read_bytes()
+        self.assertEqual(
+            trash,
+            b'<stop style="stop-color:rgb(123,121,114)"/><stop style="stop-color:rgb(42,42,41)"/>',
+        )
+
     def test_symlinks_preserved(self):
         dest = self.build()
         link = dest / "places/64/folder-download.svg"

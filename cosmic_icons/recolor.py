@@ -23,15 +23,30 @@ def to_rgb(hex_color: str) -> str:
     return "rgb({},{},{})".format(*(int(value[i:i + 2], 16) for i in (0, 2, 4)))
 
 
+def luminance(hex_color: str) -> float:
+    value = hex_color.lstrip("#")
+    r, g, b = (int(value[i:i + 2], 16) for i in (0, 2, 4))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
 def resolve(theme: dict, variant: str) -> dict[str, str]:
     spec = theme["variants"][variant]
     front = spec["front"].upper()
+    back = spec.get("back", shade(front, BACK_SHADE)).upper()
+    if "trash" in spec:
+        trash_top = spec["trash"].upper()
+        trash_bottom = shade(trash_top, BACK_SHADE)
+    else:
+        # Upstream trash gradient runs light to dark, top to bottom.
+        trash_top, trash_bottom = sorted((front, back), key=luminance, reverse=True)
     return {
         "front": front,
-        "back": spec.get("back", shade(front, BACK_SHADE)).upper(),
+        "back": back,
         "symbol": spec.get("symbol", theme["bg"]).upper(),
         "accent": spec.get("accent", front).upper(),
         "text": theme["text"].upper(),
+        "trash_top": trash_top,
+        "trash_bottom": trash_bottom,
     }
 
 

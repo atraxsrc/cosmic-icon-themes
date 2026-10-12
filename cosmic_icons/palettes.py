@@ -11,14 +11,16 @@ SOURCE = {
 
 # Trash icon gradient. Also used by devices/ icons, so only swapped under places/.
 TRASH_SOURCE = {
-    "front": "rgb(26,214,171)",
-    "back": "rgb(50,157,182)",
+    "trash_top": "rgb(26,214,171)",
+    "trash_bottom": "rgb(50,157,182)",
 }
 
 BACK_SHADE = 0.75
 
-# Variant keys: front (required), back, symbol, accent (optional).
+# Variant keys: front (required), back, symbol, accent, trash (optional).
 # Defaults: back = shade(front, BACK_SHADE), symbol = theme bg, accent = front.
+# Trash gradient defaults to the lighter of front/back on top; "trash" overrides
+# it (top = trash, bottom = shade(trash, BACK_SHADE)).
 THEMES = {
     "DarkGold": {
         "bg": "#1B1B1B", "text": "#FFFFFF",
@@ -41,7 +43,8 @@ THEMES = {
         "bg": "#111111", "text": "#CCCCCC",
         "variants": {
             "Silver": {"front": "#AAAAAA"},
-            "White": {"front": "#DDDDDD"},
+            # Darker trash so its white recycle glyph stays readable.
+            "White": {"front": "#DDDDDD", "trash": "#828282"},
             "Dark": {"front": "#2A2A2A", "back": "#636363", "symbol": "#CCCCCC", "accent": "#AAAAAA"},
         },
     },

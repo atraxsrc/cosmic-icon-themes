@@ -23,9 +23,11 @@ def render(svg: Path, px: int, out: Path) -> Path:
     return out
 
 
-def label(text: str, bg: str, fg: str, size: int, out: Path) -> Path:
+def label(text: str, bg: str, fg: str, size: int, out: Path, width: int | None = None) -> Path:
+    # Pad to a fixed width (without scaling the text) so icon strips line up.
+    pad = ["-gravity", "west", "-extent", f"{width}x{size * 2}"] if width else []
     run("convert", "-background", bg, "-fill", fg, "-pointsize", str(size),
-        f"label: {text}", str(out))
+        f"label: {text}", *pad, str(out))
     return out
 
 
@@ -43,9 +45,10 @@ def theme_sheet(theme: str, dist: Path, tmp: Path) -> Path:
         run("montage", *map(str, icons), "-tile", f"{len(icons)}x1",
             "-geometry", "+8+8", "-background", bg, str(strip))
         front = resolve(spec, variant)["front"]
-        name = label(f"{variant:<7} {front}", bg, fg, 22, tmp / f"{variant}-label.png")
+        name = label(variant, bg, fg, 22, tmp / f"{variant}-name.png", width=90)
+        code = label(front, bg, fg, 22, tmp / f"{variant}-hex.png", width=110)
         row = tmp / f"{variant}-row.png"
-        run("convert", str(name), str(strip), "-background", bg,
+        run("convert", str(name), str(code), str(strip), "-background", bg,
             "-gravity", "center", "+append", str(row))
         rows.append(row)
     PREVIEWS.mkdir(exist_ok=True)

@@ -39,7 +39,21 @@ class ResolveTest(unittest.TestCase):
             "symbol": "#1A1B26",
             "accent": "#7AA2F7",
             "text": "#C7D1FD",
+            "trash_top": "#7AA2F7",
+            "trash_bottom": shade("#7AA2F7", 0.75),
         })
+
+    def test_trash_puts_lighter_color_on_top(self):
+        # Dark variants have a back tab lighter than the front panel.
+        c = resolve(THEMES["DarkGold"], "Dark")
+        self.assertEqual(c["trash_top"], "#7B7972")
+        self.assertEqual(c["trash_bottom"], "#2A2A29")
+
+    def test_trash_override(self):
+        # White glyph needs a darker trash than the #DDDDDD folders.
+        c = resolve(THEMES["Monochrome"], "White")
+        self.assertEqual(c["trash_top"], "#828282")
+        self.assertEqual(c["trash_bottom"], shade("#828282", 0.75))
 
     def test_explicit_dark_variant(self):
         c = resolve(THEMES["DarkGold"], "Dark")
