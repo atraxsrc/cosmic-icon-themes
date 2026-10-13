@@ -65,6 +65,15 @@ THEMES = {
             "Dark": {"front": "#292E42", "back": "#545C7E", "symbol": "#7AA2F7", "accent": "#7AA2F7"},
         },
     },
+    "TokyoDay": {
+        "bg": "#E6E7ED", "text": "#343B59",
+        "variants": {
+            "Blue": {"front": "#2959AA"},
+            "Purple": {"front": "#7B43BA"},
+            "Green": {"front": "#33635C"},
+            "Ink": {"front": "#343B59", "back": "#565C75", "symbol": "#2959AA", "accent": "#2959AA"},
+        },
+    },
     "WhiteGold": {
         "bg": "#DEDBC8", "text": "#0C0C14",
         "variants": {
