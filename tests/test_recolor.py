@@ -27,6 +27,8 @@ class ThemesTest(unittest.TestCase):
             "Noir": ["Dark", "Orange", "Sage"],
             "TokyoNight": ["Blue", "Dark", "Green", "Purple"],
             "TokyoDay": ["Blue", "Green", "Ink", "Purple"],
+            "Ember": ["Dark", "Ember", "Moss", "Slate"],
+            "EmberDay": ["Ember", "Ink", "Moss", "Slate"],
             "WhiteGold": ["Gold", "Ink", "Red", "Slate"],
         })
 

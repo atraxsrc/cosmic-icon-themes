@@ -74,6 +74,24 @@ THEMES = {
             "Ink": {"front": "#343B59", "back": "#565C75", "symbol": "#2959AA", "accent": "#2959AA"},
         },
     },
+    "Ember": {
+        "bg": "#15171C", "text": "#D6D9E0",
+        "variants": {
+            "Ember": {"front": "#E8713A"},
+            "Moss": {"front": "#8FB58A"},
+            "Slate": {"front": "#7FA3C7"},
+            "Dark": {"front": "#2A2F38", "back": "#7C8290", "symbol": "#E8713A", "accent": "#E8713A"},
+        },
+    },
+    "EmberDay": {
+        "bg": "#E9E6DF", "text": "#2B2E36",
+        "variants": {
+            "Ember": {"front": "#A4441A"},
+            "Moss": {"front": "#4C6B45"},
+            "Slate": {"front": "#2F5C8A"},
+            "Ink": {"front": "#2B2E36", "back": "#505156", "symbol": "#A4441A", "accent": "#A4441A"},
+        },
+    },
     "WhiteGold": {
         "bg": "#DEDBC8", "text": "#0C0C14",
         "variants": {
