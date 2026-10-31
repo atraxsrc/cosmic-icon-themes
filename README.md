@@ -14,6 +14,8 @@ Recolored builds of the Kanagawa icon pack by Fausto Korpsvart, matched to the c
 | Ember | Ember, Moss, Slate, Dark | [cosmic-ember-theme](https://github.com/atraxsrc/cosmic-ember-theme) |
 | EmberDay | Ember, Moss, Slate, Ink | [cosmic-emberday-theme](https://github.com/atraxsrc/cosmic-emberday-theme) |
 | WhiteGold | Gold, Red, Slate, Ink | [cosmic-whitegold-theme](https://github.com/atraxsrc/cosmic-whitegold-theme) |
+| Cinder | Orange, Brick, Dark | [cosmic-cinder-theme](https://github.com/atraxsrc/cosmic-cinder-theme) |
+| Brass | Sand, Brick, Dark | [cosmic-brass-theme](https://github.com/atraxsrc/cosmic-brass-theme) |
 
 Symbolic and small icons take the theme's text color, so light themes stay readable.
 
@@ -29,6 +31,8 @@ Symbolic and small icons take the theme's text color, so light themes stay reada
 ![Ember](previews/Cosmic-Ember.png)
 ![EmberDay](previews/Cosmic-EmberDay.png)
 ![WhiteGold](previews/Cosmic-WhiteGold.png)
+![Cinder](previews/Cosmic-Cinder.png)
+![Brass](previews/Cosmic-Brass.png)
 
 ## Install
 
@@ -53,7 +57,7 @@ Then pick the icon theme in COSMIC Settings > Desktop > Appearance > Icons. Rest
 
 ```bash
 ./scripts/fetch-upstream.sh
-python3 -m cosmic_icons.build                                   # all 35 packs into dist/
+python3 -m cosmic_icons.build                                   # all 41 packs into dist/
 python3 -m cosmic_icons.build --theme Noir                      # all Noir variants
 python3 -m cosmic_icons.build --theme TokyoNight --variant Purple
 python3 -m cosmic_icons.preview                                 # refresh previews/

@@ -46,6 +46,22 @@ THEMES = {
             "Dark": {"front": "#2C2C2D", "back": "#565D60", "symbol": "#798186", "accent": "#798186"},
         },
     },
+    "Cinder": {
+        "bg": "#121212", "text": "#B3ADAD",
+        "variants": {
+            "Orange": {"front": "#CC6528"},
+            "Brick": {"front": "#C75E57"},
+            "Dark": {"front": "#222228", "back": "#626A78", "symbol": "#CC6528", "accent": "#CC6528"},
+        },
+    },
+    "Brass": {
+        "bg": "#1C1B19", "text": "#F0E4C5",
+        "variants": {
+            "Sand": {"front": "#D4BD99"},
+            "Brick": {"front": "#DD6A5C"},
+            "Dark": {"front": "#2C2925", "back": "#6B655C", "symbol": "#D4BD99", "accent": "#D4BD99"},
+        },
+    },
     "Monochrome": {
         # .ron text_tint #828282 is too dim for symbolic icons; Firefox toolbar_text used.
         "bg": "#111111", "text": "#CCCCCC",

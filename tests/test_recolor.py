@@ -24,6 +24,8 @@ class ThemesTest(unittest.TestCase):
             "DarkGold": ["Dark", "Gold", "Red"],
             "Dossier": ["Ink", "Olive", "Rust"],
             "K3": ["Dark", "Steel", "Terracotta"],
+            "Cinder": ["Brick", "Dark", "Orange"],
+            "Brass": ["Brick", "Dark", "Sand"],
             "Monochrome": ["Dark", "Silver", "White"],
             "Noir": ["Dark", "Orange", "Sage"],
             "TokyoNight": ["Blue", "Dark", "Green", "Purple"],
