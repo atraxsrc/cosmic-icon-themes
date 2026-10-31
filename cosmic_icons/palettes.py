@@ -62,6 +62,54 @@ THEMES = {
             "Dark": {"front": "#2C2925", "back": "#6B655C", "symbol": "#D4BD99", "accent": "#D4BD99"},
         },
     },
+    "Sorbet": {
+        "bg": "#05080A", "text": "#FFF6FF",
+        "variants": {
+            "Mint": {"front": "#B2FFF3"},
+            "Rose": {"front": "#FF9FBC"},
+            "Dark": {"front": "#1A1727", "back": "#5E616C", "symbol": "#B2FFF3", "accent": "#B2FFF3"},
+        },
+    },
+    "Prism": {
+        "bg": "#060D1F", "text": "#E0F7FA",
+        "variants": {
+            "Petal": {"front": "#F7C3C6"},
+            "Ruby": {"front": "#E95C4B"},
+            "Dark": {"front": "#161F33", "back": "#5A6B8C", "symbol": "#F7C3C6", "accent": "#F7C3C6"},
+        },
+    },
+    "Nebula": {
+        "bg": "#181C22", "text": "#E0E6ED",
+        "variants": {
+            "Teal": {"front": "#4ECDC4"},
+            "Rose": {"front": "#FF7B92"},
+            "Dark": {"front": "#272C34", "back": "#5B6478", "symbol": "#4ECDC4", "accent": "#4ECDC4"},
+        },
+    },
+    "Sumi": {
+        "bg": "#050505", "text": "#D6D0C5",
+        "variants": {
+            "Moss": {"front": "#8B9388"},
+            "Vermilion": {"front": "#DA614E"},
+            "Dark": {"front": "#1E1E1E", "back": "#5F5D58", "symbol": "#8B9388", "accent": "#8B9388"},
+        },
+    },
+    "Tweed": {
+        "bg": "#292B31", "text": "#D6D1C9",
+        "variants": {
+            "Tan": {"front": "#BDA07F"},
+            "Brick": {"front": "#E77D6C"},
+            "Dark": {"front": "#363840", "back": "#6B6B6E", "symbol": "#BDA07F", "accent": "#BDA07F"},
+        },
+    },
+    "Blush": {
+        "bg": "#F5E6D3", "text": "#35302A",
+        "variants": {
+            "Rose": {"front": "#9E4F5B"},
+            "Crimson": {"front": "#A02B16"},
+            "Dark": {"front": "#35302A", "back": "#756454", "symbol": "#9E4F5B", "accent": "#9E4F5B"},
+        },
+    },
     "Monochrome": {
         # .ron text_tint #828282 is too dim for symbolic icons; Firefox toolbar_text used.
         "bg": "#111111", "text": "#CCCCCC",

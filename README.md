@@ -16,6 +16,12 @@ Recolored builds of the Kanagawa icon pack by Fausto Korpsvart, matched to the c
 | WhiteGold | Gold, Red, Slate, Ink | [cosmic-whitegold-theme](https://github.com/atraxsrc/cosmic-whitegold-theme) |
 | Cinder | Orange, Brick, Dark | [cosmic-cinder-theme](https://github.com/atraxsrc/cosmic-cinder-theme) |
 | Brass | Sand, Brick, Dark | [cosmic-brass-theme](https://github.com/atraxsrc/cosmic-brass-theme) |
+| Sorbet | Mint, Rose, Dark | [cosmic-sorbet-theme](https://github.com/atraxsrc/cosmic-sorbet-theme) |
+| Prism | Petal, Ruby, Dark | [cosmic-prism-theme](https://github.com/atraxsrc/cosmic-prism-theme) |
+| Nebula | Teal, Rose, Dark | [cosmic-nebula-theme](https://github.com/atraxsrc/cosmic-nebula-theme) |
+| Sumi | Moss, Vermilion, Dark | [cosmic-sumi-theme](https://github.com/atraxsrc/cosmic-sumi-theme) |
+| Tweed | Tan, Brick, Dark | [cosmic-tweed-theme](https://github.com/atraxsrc/cosmic-tweed-theme) |
+| Blush | Rose, Crimson, Dark | [cosmic-blush-theme](https://github.com/atraxsrc/cosmic-blush-theme) |
 
 Symbolic and small icons take the theme's text color, so light themes stay readable.
 
@@ -33,6 +39,12 @@ Symbolic and small icons take the theme's text color, so light themes stay reada
 ![WhiteGold](previews/Cosmic-WhiteGold.png)
 ![Cinder](previews/Cosmic-Cinder.png)
 ![Brass](previews/Cosmic-Brass.png)
+![Sorbet](previews/Cosmic-Sorbet.png)
+![Prism](previews/Cosmic-Prism.png)
+![Nebula](previews/Cosmic-Nebula.png)
+![Sumi](previews/Cosmic-Sumi.png)
+![Tweed](previews/Cosmic-Tweed.png)
+![Blush](previews/Cosmic-Blush.png)
 
 ## Install
 
@@ -57,7 +69,7 @@ Then pick the icon theme in COSMIC Settings > Desktop > Appearance > Icons. Rest
 
 ```bash
 ./scripts/fetch-upstream.sh
-python3 -m cosmic_icons.build                                   # all 41 packs into dist/
+python3 -m cosmic_icons.build                                   # all 59 packs into dist/
 python3 -m cosmic_icons.build --theme Noir                      # all Noir variants
 python3 -m cosmic_icons.build --theme TokyoNight --variant Purple
 python3 -m cosmic_icons.preview                                 # refresh previews/
