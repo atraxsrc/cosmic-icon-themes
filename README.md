@@ -26,6 +26,12 @@ Recolored builds of the Kanagawa icon pack by Fausto Korpsvart, matched to the c
 | Tweed | Tan, Brick, Dark | [cosmic-tweed-theme](https://github.com/atraxsrc/cosmic-tweed-theme) |
 | TweedDay | Tan, Brick, Dark | [cosmic-tweedday-theme](https://github.com/atraxsrc/cosmic-tweedday-theme) |
 | Blush | Rose, Crimson, Dark | [cosmic-blush-theme](https://github.com/atraxsrc/cosmic-blush-theme) |
+| K3Day | Steel, Terracotta, Dark | [cosmic-k3day-theme](https://github.com/atraxsrc/cosmic-k3day-theme) |
+| CinderDay | Orange, Brick, Dark | [cosmic-cinderday-theme](https://github.com/atraxsrc/cosmic-cinderday-theme) |
+| BrassDay | Sand, Brick, Dark | [cosmic-brassday-theme](https://github.com/atraxsrc/cosmic-brassday-theme) |
+| SorbetDay | Mint, Rose, Dark | [cosmic-sorbetday-theme](https://github.com/atraxsrc/cosmic-sorbetday-theme) |
+| MonochromeDay | Silver, Graphite, Dark | [cosmic-monochromeday-theme](https://github.com/atraxsrc/cosmic-monochromeday-theme) |
+| BlushNight | Rose, Crimson, Dark | [cosmic-blushnight-theme](https://github.com/atraxsrc/cosmic-blushnight-theme) |
 
 Symbolic and small icons take the theme's text color, so light themes stay readable.
 
@@ -53,6 +59,12 @@ Symbolic and small icons take the theme's text color, so light themes stay reada
 ![Tweed](previews/Cosmic-Tweed.png)
 ![TweedDay](previews/Cosmic-TweedDay.png)
 ![Blush](previews/Cosmic-Blush.png)
+![K3Day](previews/Cosmic-K3Day.png)
+![CinderDay](previews/Cosmic-CinderDay.png)
+![BrassDay](previews/Cosmic-BrassDay.png)
+![SorbetDay](previews/Cosmic-SorbetDay.png)
+![MonochromeDay](previews/Cosmic-MonochromeDay.png)
+![BlushNight](previews/Cosmic-BlushNight.png)
 
 ## Install
 

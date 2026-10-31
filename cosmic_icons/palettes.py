@@ -205,4 +205,52 @@ THEMES = {
             "Ink": {"front": "#0C0C14", "back": "#665E4A", "symbol": "#C9A227", "accent": "#7A6410"},
         },
     },
+    "K3Day": {
+        "bg": "#E5E6E6", "text": "#1A1B1B",
+        "variants": {
+            "Steel": {"front": "#586065"},
+            "Terracotta": {"front": "#B03316"},
+            "Dark": {"front": "#1A1B1B", "back": "#616161", "symbol": "#586065", "accent": "#586065"},
+        },
+    },
+    "CinderDay": {
+        "bg": "#E8E3E3", "text": "#1B1A1A",
+        "variants": {
+            "Orange": {"front": "#A33D00"},
+            "Brick": {"front": "#9E352E"},
+            "Dark": {"front": "#1B1A1A", "back": "#626060", "symbol": "#A33D00", "accent": "#A33D00"},
+        },
+    },
+    "BrassDay": {
+        "bg": "#F4ECD6", "text": "#1D1C17",
+        "variants": {
+            "Sand": {"front": "#77603B"},
+            "Brick": {"front": "#A63426"},
+            "Dark": {"front": "#1D1C17", "back": "#67645B", "symbol": "#77603B", "accent": "#77603B"},
+        },
+    },
+    "SorbetDay": {
+        "bg": "#E9E2E9", "text": "#1B1A1B",
+        "variants": {
+            "Mint": {"front": "#1C685C"},
+            "Rose": {"front": "#963653"},
+            "Dark": {"front": "#1B1A1B", "back": "#635F63", "symbol": "#1C685C", "accent": "#1C685C"},
+        },
+    },
+    "MonochromeDay": {
+        "bg": "#E6E6E6", "text": "#1A1A1A",
+        "variants": {
+            "Silver": {"front": "#5C5C5C"},
+            "Graphite": {"front": "#424242"},
+            "Dark": {"front": "#1A1A1A", "back": "#616161", "symbol": "#E6E6E6", "accent": "#5C5C5C"},
+        },
+    },
+    "BlushNight": {
+        "bg": "#17130E", "text": "#DACCBC",
+        "variants": {
+            "Rose": {"front": "#CD7F8B"},
+            "Crimson": {"front": "#E8735E"},
+            "Dark": {"front": "#312D28", "back": "#66615A", "symbol": "#CD7F8B", "accent": "#CD7F8B"},
+        },
+    },
 }

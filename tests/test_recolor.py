@@ -43,6 +43,12 @@ class ThemesTest(unittest.TestCase):
             "Ember": ["Dark", "Ember", "Moss", "Slate"],
             "EmberDay": ["Ember", "Ink", "Moss", "Slate"],
             "WhiteGold": ["Gold", "Ink", "Red", "Slate"],
+            "K3Day": ["Dark", "Steel", "Terracotta"],
+            "CinderDay": ["Brick", "Dark", "Orange"],
+            "BrassDay": ["Brick", "Dark", "Sand"],
+            "SorbetDay": ["Dark", "Mint", "Rose"],
+            "MonochromeDay": ["Dark", "Graphite", "Silver"],
+            "BlushNight": ["Crimson", "Dark", "Rose"],
         })
 
 
