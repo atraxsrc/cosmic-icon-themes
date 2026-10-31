@@ -6,6 +6,7 @@ Recolored builds of the Kanagawa icon pack by Fausto Korpsvart, matched to the c
 |---|---|---|
 | DarkGold | Gold, Red, Dark | [cosmic-darkgold-theme](https://github.com/atraxsrc/cosmic-darkgold-theme) |
 | Dossier | Rust, Olive, Ink | [cosmic-dossier-theme](https://github.com/atraxsrc/cosmic-dossier-theme) |
+| K3 | Steel, Terracotta, Dark | [cosmic-k3-theme](https://github.com/atraxsrc/cosmic-k3-theme-) |
 | Monochrome | Silver, White, Dark | [cosmic-monochrome-theme](https://github.com/atraxsrc/cosmic-monochrome-theme) |
 | Noir | Orange, Sage, Dark | [cosmic-noir-theme](https://github.com/atraxsrc/cosmic-noir-theme) |
 | TokyoNight | Blue, Purple, Green, Dark | [cosmic-tokyonight-theme](https://github.com/atraxsrc/cosmic-tokyonight-theme) |
@@ -20,6 +21,7 @@ Symbolic and small icons take the theme's text color, so light themes stay reada
 
 ![DarkGold](previews/Cosmic-DarkGold.png)
 ![Dossier](previews/Cosmic-Dossier.png)
+![K3](previews/Cosmic-K3.png)
 ![Monochrome](previews/Cosmic-Monochrome.png)
 ![Noir](previews/Cosmic-Noir.png)
 ![TokyoNight](previews/Cosmic-TokyoNight.png)
@@ -51,7 +53,7 @@ Then pick the icon theme in COSMIC Settings > Desktop > Appearance > Icons. Rest
 
 ```bash
 ./scripts/fetch-upstream.sh
-python3 -m cosmic_icons.build                                   # all 32 packs into dist/
+python3 -m cosmic_icons.build                                   # all 35 packs into dist/
 python3 -m cosmic_icons.build --theme Noir                      # all Noir variants
 python3 -m cosmic_icons.build --theme TokyoNight --variant Purple
 python3 -m cosmic_icons.preview                                 # refresh previews/

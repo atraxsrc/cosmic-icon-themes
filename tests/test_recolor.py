@@ -23,6 +23,7 @@ class ThemesTest(unittest.TestCase):
         self.assertEqual(got, {
             "DarkGold": ["Dark", "Gold", "Red"],
             "Dossier": ["Ink", "Olive", "Rust"],
+            "K3": ["Dark", "Steel", "Terracotta"],
             "Monochrome": ["Dark", "Silver", "White"],
             "Noir": ["Dark", "Orange", "Sage"],
             "TokyoNight": ["Blue", "Dark", "Green", "Purple"],

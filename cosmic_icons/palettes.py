@@ -38,6 +38,14 @@ THEMES = {
             "Ink": {"front": "#242424", "back": "#59574D", "symbol": "#DE6A41", "accent": "#953B19"},
         },
     },
+    "K3": {
+        "bg": "#101315", "text": "#CACCCC",
+        "variants": {
+            "Steel": {"front": "#798186"},
+            "Terracotta": {"front": "#DE6145"},
+            "Dark": {"front": "#2C2C2D", "back": "#565D60", "symbol": "#798186", "accent": "#798186"},
+        },
+    },
     "Monochrome": {
         # .ron text_tint #828282 is too dim for symbolic icons; Firefox toolbar_text used.
         "bg": "#111111", "text": "#CCCCCC",
