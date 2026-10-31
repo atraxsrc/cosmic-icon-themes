@@ -78,12 +78,28 @@ THEMES = {
             "Dark": {"front": "#161F33", "back": "#5A6B8C", "symbol": "#F7C3C6", "accent": "#F7C3C6"},
         },
     },
+    "PrismDay": {
+        "bg": "#DFEAEC", "text": "#242B3D",
+        "variants": {
+            "Petal": {"front": "#804C4F"},
+            "Ruby": {"front": "#B52817"},
+            "Dark": {"front": "#242B3D", "back": "#515B7C", "symbol": "#804C4F", "accent": "#804C4F"},
+        },
+    },
     "Nebula": {
         "bg": "#181C22", "text": "#E0E6ED",
         "variants": {
             "Teal": {"front": "#4ECDC4"},
             "Rose": {"front": "#FF7B92"},
             "Dark": {"front": "#272C34", "back": "#5B6478", "symbol": "#4ECDC4", "accent": "#4ECDC4"},
+        },
+    },
+    "NebulaDay": {
+        "bg": "#E2E5E9", "text": "#2B2F35",
+        "variants": {
+            "Teal": {"front": "#186A61"},
+            "Rose": {"front": "#A8243B"},
+            "Dark": {"front": "#2B2F35", "back": "#555F72", "symbol": "#186A61", "accent": "#186A61"},
         },
     },
     "Sumi": {
@@ -94,12 +110,28 @@ THEMES = {
             "Dark": {"front": "#1E1E1E", "back": "#5F5D58", "symbol": "#8B9388", "accent": "#8B9388"},
         },
     },
+    "SumiDay": {
+        "bg": "#EDE8DE", "text": "#1C1B19",
+        "variants": {
+            "Moss": {"front": "#566658"},
+            "Vermilion": {"front": "#AC3320"},
+            "Dark": {"front": "#1C1B19", "back": "#64615E", "symbol": "#566658", "accent": "#566658"},
+        },
+    },
     "Tweed": {
         "bg": "#292B31", "text": "#D6D1C9",
         "variants": {
             "Tan": {"front": "#BDA07F"},
             "Brick": {"front": "#E77D6C"},
             "Dark": {"front": "#363840", "back": "#6B6B6E", "symbol": "#BDA07F", "accent": "#BDA07F"},
+        },
+    },
+    "TweedDay": {
+        "bg": "#E9E6E2", "text": "#2C2E34",
+        "variants": {
+            "Tan": {"front": "#76593D"},
+            "Brick": {"front": "#B32A19"},
+            "Dark": {"front": "#2C2E34", "back": "#655F58", "symbol": "#76593D", "accent": "#76593D"},
         },
     },
     "Blush": {
